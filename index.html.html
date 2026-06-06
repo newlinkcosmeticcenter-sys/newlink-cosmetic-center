@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newlink Cosmetic Center | Premium Beauty & Skincare</title>
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Loading Screen -->
+    <div id="loader">
+        <div class="loader-content">
+            <i class="fa-solid fa-spa gold-icon"></i>
+            <h2>Newlink Cosmetic</h2>
+            <div class="progress-bar"><span></span></div>
+        </div>
+    </div>
+
+    <!-- Sticky Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <i class="fa-solid fa-spa"></i> Newlink <span>Cosmetic</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#appointment" class="btn-nav">Book Appointment</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button id="theme-toggle" aria-label="Toggle Theme"><i class="fa-solid fa-moon"></i></button>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg-particles"></div>
+        <div class="hero-content">
+            <span class="subtitle"><i class="fa-solid fa-crown"></i> Premium Beauty Experience</span>
+            <h1>Enhance Your Beauty <span>with Confidence</span></h1>
+            <p>Professional Cosmetic, Skincare & Beauty Solutions</p>
+            <div class="hero-btns">
+                <a href="#appointment" class="btn btn-primary"><i class="fa-solid fa-calendar-check"></i> Book Appointment</a>
+                <a href="#services" class="btn btn-secondary">View Services</a>
+            </div>
+        </div>
+        <a href="#about" class="scroll-down"><i class="fa-solid fa-chevron-down"></i></a>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="about section-padding">
+        <div class="container">
+            <div class="about-wrapper">
+                <div class="about-img-box">
+                    <div class="main-img-frame">
+                        <i class="fa-solid fa-spa placeholder-logo"></i>
+                    </div>
+                    <div class="experience-badge">
+                        <h3>5+</h3>
+                        <p>Years Experience</p>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <span class="section-subtitle">About Us</span>
+                    <h2>About Newlink Cosmetic Center</h2>
+                    <p>Newlink Cosmetic Center is dedicated to enhancing natural beauty through professional cosmetic treatments, skincare solutions, and personalized beauty consultations. Our team of certified experts uses cutting-edge technology and premium products to deliver exceptional results tailored to your unique needs.</p>
+                    
+                    <div class="about-features">
+                        <div class="feature-card">
+                            <i class="fa-solid fa-award"></i>
+                            <div>
+                                <h3>5+ Years Experience</h3>
+                                <p>Trusted expertise in beauty care</p>
+                            </div>
+                        </div>
+                        <div class="feature-card">
+                            <i class="fa-solid fa-user-doctor"></i>
+                            <div>
+                                <h3>Professional Experts</h3>
+                                <p>Certified beauty specialists</p>
+                            </div>
+                        </div>
+                        <div class="feature-card">
+                            <i class="fa-solid fa-wand-magic-sparkles"></i>
+                            <div>
+                                <h3>Modern Technology</h3>
+                                <p>State-of-the-art equipment</p>
+                            </div>
+                        </div>
+                        <div class="feature-card">
+                            <i class="fa-solid fa-heart"></i>
+                            <div>
+                                <h3>Customer Satisfaction</h3>
+                                <p>Your happiness is our priority</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services section-padding">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Our Services</span>
+                <h2>Premium Beauty Services</h2>
+                <p>Discover our wide range of professional beauty and cosmetic treatments designed to enhance your natural beauty.</p>
+            </div>
+            
+            <div class="services-grid">
+                <!-- Makeup -->
+                <div class="service-card">
+                    <div class="service-icon"><i class="fa-solid fa-brush"></i></div>
+                    <h3>Makeup Services</h3>
+                    <p>Professional makeup artistry for any occasion, from everyday looks to glamorous events, using premium products.</p>
+                    <a href="#appointment" class="service-link">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                <!-- Facial -->
+                <div class="service-card">
+                    <div class="service-icon"><i class="fa-solid fa-face-smile-beam"></i></div>
+                    <h3>Facial Treatments</h3>
+                    <p>Rejuvenating facial treatments that cleanse, exfoliate, and nourish your skin for a radiant, youthful glow.</p>
+                    <a href="#appointment" class="service-link">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                <!-- Skin Care -->
+                <div class="service-card">
+                    <div class="service-icon"><i class="fa-solid fa-leaf"></i></div>
+                    <h3>Skin Care Consultation</h3>
+                    <p>Personalized skincare consultations to analyze your skin type and create a custom treatment plan.</p>
+                    <a href="#appointment" class="service-link">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                <!-- Bridal -->
+                <div class="service-card">
+                    <div class="service-icon"><i class="fa-solid fa-person-dress"></i></div>
+                    <h3>Bridal Beauty Packages</h3>
+                    <p>Complete bridal beauty packages including makeup, hair, and skincare for your special day.</p>
+                    <a href="#appointment" class="service-link">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                <!-- Nails -->
+                <div class="service-card">
+                    <div class="service-icon"><i class="fa-solid fa-hand-sparkles"></i></div>
+                    <h3>Nail Care</h3>
+                    <p>Luxury manicures and pedicures with premium nail art, gel polish, and nail health treatments.</p>
+                    <a href="#appointment" class="service-link">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                <!-- Hair -->
+                <div class="service-card">
+                    <div class="service-icon"><i class="fa-solid fa-scissors"></i></div>
+                    <h3>Hair Treatments</h3>
+                    <p>Professional hair styling, coloring, treatments, and restoration for healthy, beautiful hair.</p>
+                    <a href="#appointment" class="service-link">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us (Stats) Section -->
+    <section class="stats section-padding">
+        <div class="container">
+            <div class="section-header white-text">
+                <span class="section-subtitle">Why Choose Us</span>
+                <h2>Numbers That Speak Excellence</h2>
+                <p>Our commitment to quality and customer satisfaction has earned us the trust of hundreds of clients.</p>
+            </div>
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <i class="fa-solid fa-smile"></i>
+                    <h3 class="counter" data-target="500">0</h3>
+                    <p>Happy Clients</p>
+                </div>
+                <div class="stat-item">
+                    <i class="fa-solid fa-hand-holding-heart"></i>
+                    <h3 class="counter" data-target="1000">0</h3>
+                    <p>Treatments Completed</p>
+                </div>
+                <div class="stat-item">
+                    <i class="fa-solid fa-calendar-days"></i>
+                    <h3 class="counter" data-target="5">0</h3>
+                    <p>Years Experience</p>
+                </div>
+                <div class="stat-item">
+                    <i class="fa-solid fa-star"></i>
+                    <h3 class="counter" data-target="98">0</h3>
+                    <p>% Satisfaction Rate</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery section-padding">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Our Gallery</span>
+                <h2>Beauty Portfolio</h2>
+                <p>Browse through our collection of stunning transformations and beauty works.</p>
+            </div>
+
+            <div class="gallery-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="makeup">Makeup</button>
+                <button class="filter-btn" data-filter="bridal">Bridal</button>
+                <button class="filter-btn" data-filter="skincare">Skincare</button>
+                <button class="filter-btn" data-filter="treatments">Treatments</button>
+            </div>
+
+            <div class="gallery-grid">
+                <!-- Gallery items use placeholder blocks style. Real images can be added via src -->
+                <div class="gallery-item" data-category="makeup">
+                    <div class="gallery-img-placeholder"><span>Evening Glamour</span><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+                </div>
+                <div class="gallery-item" data-category="bridal">
+                    <div class="gallery-img-placeholder"><span>Bridal Elegance</span><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+                </div>
+                <div class="gallery-item" data-category="skincare">
+                    <div class="gallery-img-placeholder"><span>Skin Rejuvenation</span><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+                </div>
+                <div class="gallery-item" data-category="treatments">
+                    <div class="gallery-img-placeholder"><span>Luxury Spa</span><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+                </div>
+                <div class="gallery-item" data-category="makeup">
+                    <div class="gallery-img-placeholder"><span>Natural Beauty</span><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+                </div>
+                <div class="gallery-item" data-category="bridal">
+                    <div class="gallery-img-placeholder"><span>Wedding Glow</span><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+                </div>
+                <div class="gallery-item" data-category="skincare">
+                    <div class="gallery-img-placeholder"><span>Deep Cleansing</span><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+                </div>
+                <div class="gallery-item" data-category="treatments">
+                    <div class="gallery-img-placeholder"><span>Nail Artistry</span><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="reviews" class="testimonials section-padding">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Testimonials</span>
+                <h2>What Our Clients Say</h2>
+                <p>Real reviews from our valued customers who experienced our premium beauty services.</p>
+            </div>
+
+            <div class="testimonial-slider-container">
+                <div class="testimonial-slider">
+                    <!-- Review 1 -->
+                    <div class="testimonial-slide active">
+                        <div class="quote-icon"><i class="fa-solid fa-quote-left"></i></div>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="review-text">"Excellent service and friendly staff. The team at Newlink Cosmetic Center truly understands beauty. My skin has never looked better!"</p>
+                        <div class="client-info">
+                            <div class="client-avatar">SJ</div>
+                            <div>
+                                <h3>Sarah Johnson</h3>
+                                <p>Regular Client</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Review 2 -->
+                    <div class="testimonial-slide">
+                        <div class="quote-icon"><i class="fa-solid fa-quote-left"></i></div>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="review-text">"My bridal makeup was absolutely perfect. They made me feel like a princess on my special day. Highly recommend for any bride!"</p>
+                        <div class="client-info">
+                            <div class="client-avatar">EW</div>
+                            <div>
+                                <h3>Emily Williams</h3>
+                                <p>Bridal Client</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Review 3 -->
+                    <div class="testimonial-slide">
+                        <div class="quote-icon"><i class="fa-solid fa-quote-left"></i></div>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="review-text">"Best cosmetic center experience I've ever had. The attention to detail and personalized care is unmatched. Will definitely be coming back!"</p>
+                        <div class="client-info">
+                            <div class="client-avatar">AM</div>
+                            <div>
+                                <h3>Amanda Martinez</h3>
+                                <p>VIP Client</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slider-controls">
+                    <button id="prev-slide" aria-label="Previous Review"><i class="fa-solid fa-chevron-left"></i></button>
+                    <div class="slider-dots"></div>
+                    <button id="next-slide" aria-label="Next Review"><i class="fa-solid fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Appointment Booking Form Section -->
+    <section id="appointment" class="appointment section-padding">
+        <div class="container">
+            <div class="appointment-wrapper">
+                <div class="appointment-form-container">
+                    <span class="section-subtitle">Book Now</span>
+                    <h2>Schedule Your Appointment</h2>
+                    <p>Book your beauty session today and let our experts take care of you.</p>
+
+                    <form id="booking-form" novalidate>
+                        <div class="form-group">
+                            <label for="name">Full Name*</label>
+                            <input type="text" id="name" required placeholder="Enter your full name">
+                            <span class="error-msg">Please enter your name</span>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="phone">Phone Number*</label>
+                                <input type="tel" id="phone" required placeholder="Enter your phone number">
+                                <span class="error-msg">Please enter a valid phone number</span>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email Address*</label>
+                                <input type="email" id="email" required placeholder="Enter your email">
+                                <span class="error-msg">Please enter a valid email address</span>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="service">Select Service*</label>
+                                <select id="service" required>
+                                    <option value="" disabled selected>Choose a service</option>
+                                    <option value="makeup">Makeup Services</option>
+                                    <option value="facial">Facial Treatments</option>
+                                    <option value="skincare">Skin Care Consultation</option>
+                                    <option value="bridal">Bridal Beauty Packages</option>
+                                    <option value="nails">Nail Care</option>
+                                    <option value="hair">Hair Treatments</option>
+                                </select>
+                                <span class="error-msg">Please select a service</span>
+                            </div>
+                            <div class="form-group">
+                                <label for="date">Preferred Date*</label>
+                                <input type="date" id="date" required>
+                                <span class="error-msg">Please choose a valid date</span>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Additional Message</label>
+                            <textarea id="message" rows="4" placeholder="Tell us about your requirements..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block"><i class="fa-solid fa-calendar-check"></i> Book Now</button>
+                    </form>
+                    <div id="form-success" class="form-success-alert">
+                        <i class="fa-solid fa-circle-check"></i>
+                        <h3>Appointment Request Sent!</h3>
+                        <p>Thank you. We will contact you shortly to confirm your booking.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Map Section -->
+    <section id="contact" class="contact section-padding">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Contact Us</span>
+                <h2>Get In Touch</h2>
+                <p>Visit us or reach out through any of our contact channels.</p>
+            </div>
+
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <div class="info-icon"><i class="fa-solid fa-location-dot"></i></div>
+                        <div>
+                            <h3>Address</h3>
+                            <p>123 Beauty Boulevard, Suite 456<br>Cosmetic District, CA 90210</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon"><i class="fa-solid fa-phone"></i></div>
+                        <div>
+                            <h3>Phone Number</h3>
+                            <p>+1 (555) 123-4567<br>+1 (555) 987-6543</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon"><i class="fa-solid fa-envelope"></i></div>
+                        <div>
+                            <h3>Email</h3>
+                            <p>info@newlinkcosmetic.com<br>bookings@newlinkcosmetic.com</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon"><i class="fa-solid fa-clock"></i></div>
+                        <div>
+                            <h3>Working Hours</h3>
+                            <p>Mon - Sat: 9:00 AM - 8:00 PM<br>Sunday: 10:00 AM - 6:00 PM</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-map">
+                    <!-- Standard Placeholder Map Area. Real Google map iframe link can be placed here -->
+                    <div class="map-placeholder">
+                        <i class="fa-solid fa-map-location-dot"></i>
+                        <p>Find us on the map</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col brand">
+                    <a href="#" class="logo">
+                        <i class="fa-solid fa-spa"></i> Newlink <span>Cosmetic</span>
+                    </a>
+                    <p>Newlink Cosmetic Center is your trusted destination for premium beauty and skincare services. We combine expertise with luxury to deliver exceptional results.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="#" aria-label="Pinterest"><i class="fa-brands fa-pinterest-p"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#reviews">Reviews</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="#services">Makeup Services</a></li>
+                        <li><a href="#services">Facial Treatments</a></li>
+                        <li><a href="#services">Bridal Packages</a></li>
+                        <li><a href="#services">Nail Care</a></li>
+                        <li><a href="#services">Hair Treatments</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Newsletter</h3>
+                    <p>Subscribe to get beauty tips and exclusive offers.</p>
+                    <form class="newsletter-form" onsubmit="event.preventDefault(); alert('Subscribed!');">
+                        <input type="email" placeholder="Your email address" required>
+                        <button type="submit" aria-label="Subscribe"><i class="fa-solid fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Newlink Cosmetic Center. All Rights Reserved.</p>
+                <p>Designed with <i class="fa-solid fa-heart" style="color: #D4AF37;"></i> for beauty</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button id="scroll-top" aria-label="Scroll to top"><i class="fa-solid fa-arrow-up"></i></button>
+
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
